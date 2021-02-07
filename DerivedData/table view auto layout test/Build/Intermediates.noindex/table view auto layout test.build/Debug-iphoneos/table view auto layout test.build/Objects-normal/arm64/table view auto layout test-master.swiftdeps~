@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.3.2 (swiftlang-1200.0.45 clang-1200.0.32.28)"
+options: "ee34d0af7ccc67a869307e9bf6778ad9"
+build_time: [1612659788, 907362000]
+inputs:
+  "/Users/lincolnnguyen/Desktop/table view auto layout test/table view auto layout test/ViewController.swift": [1612659509, 606813800]
+  "/Users/lincolnnguyen/Desktop/table view auto layout test/table view auto layout test/TestTableViewCell.swift": !dirty [1612659788, 471963804]
+  "/Users/lincolnnguyen/Desktop/table view auto layout test/table view auto layout test/AppDelegate.swift": [1612655907, 928723536]
+  "/Users/lincolnnguyen/Desktop/table view auto layout test/table view auto layout test/SceneDelegate.swift": [1612658841, 476120215]

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>10</integer>
+	<key>logs</key>
+	<dict>
+		<key>2F194270-47DD-49D4-9FCF-AD6F3A004BFE</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>2F194270-47DD-49D4-9FCF-AD6F3A004BFE.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>table view auto layout test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>table view auto layout test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run table view auto layout test</string>
+			<key>timeStartedRecording</key>
+			<real>634351007.23467505</real>
+			<key>timeStoppedRecording</key>
+			<real>634351387.16578496</real>
+			<key>title</key>
+			<string>Run table view auto layout test</string>
+			<key>uniqueIdentifier</key>
+			<string>2F194270-47DD-49D4-9FCF-AD6F3A004BFE</string>
+		</dict>
+		<key>5353347A-0190-4C9E-98F5-170CC6D85B4B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>5353347A-0190-4C9E-98F5-170CC6D85B4B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>table view auto layout test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>table view auto layout test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run table view auto layout test</string>
+			<key>timeStartedRecording</key>
+			<real>634350915.05343103</real>
+			<key>timeStoppedRecording</key>
+			<real>634350918.07047904</real>
+			<key>title</key>
+			<string>Run table view auto layout test</string>
+			<key>uniqueIdentifier</key>
+			<string>5353347A-0190-4C9E-98F5-170CC6D85B4B</string>
+		</dict>
+		<key>8DAAA8B6-2B7E-424A-907E-C673584C89CF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>8DAAA8B6-2B7E-424A-907E-C673584C89CF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>table view auto layout test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>table view auto layout test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run table view auto layout test</string>
+			<key>timeStartedRecording</key>
+			<real>634352752.96806097</real>
+			<key>timeStoppedRecording</key>
+			<real>634352830.65285301</real>
+			<key>title</key>
+			<string>Run table view auto layout test</string>
+			<key>uniqueIdentifier</key>
+			<string>8DAAA8B6-2B7E-424A-907E-C673584C89CF</string>
+		</dict>
+		<key>DD31E458-1581-466E-87A9-BB2B8CCC79E6</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DD31E458-1581-466E-87A9-BB2B8CCC79E6.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>table view auto layout test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>table view auto layout test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run table view auto layout test</string>
+			<key>timeStartedRecording</key>
+			<real>634350946.901775</real>
+			<key>timeStoppedRecording</key>
+			<real>634350949.85693002</real>
+			<key>title</key>
+			<string>Run table view auto layout test</string>
+			<key>uniqueIdentifier</key>
+			<string>DD31E458-1581-466E-87A9-BB2B8CCC79E6</string>
+		</dict>
+		<key>E26ED89B-6151-4633-BBE1-431CE8687B89</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E26ED89B-6151-4633-BBE1-431CE8687B89.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>table view auto layout test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>table view auto layout test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run table view auto layout test</string>
+			<key>timeStartedRecording</key>
+			<real>634350960.80762196</real>
+			<key>timeStoppedRecording</key>
+			<real>634351005.85022902</real>
+			<key>title</key>
+			<string>Run table view auto layout test</string>
+			<key>uniqueIdentifier</key>
+			<string>E26ED89B-6151-4633-BBE1-431CE8687B89</string>
+		</dict>
+		<key>E88F8842-018A-4CB4-8889-D1DD907DD4AF</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E88F8842-018A-4CB4-8889-D1DD907DD4AF.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>table view auto layout test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>table view auto layout test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run table view auto layout test</string>
+			<key>timeStartedRecording</key>
+			<real>634351394.22963095</real>
+			<key>timeStoppedRecording</key>
+			<real>634352745.52925301</real>
+			<key>title</key>
+			<string>Run table view auto layout test</string>
+			<key>uniqueIdentifier</key>
+			<string>E88F8842-018A-4CB4-8889-D1DD907DD4AF</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
