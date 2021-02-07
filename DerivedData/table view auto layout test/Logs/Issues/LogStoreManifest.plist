@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>5AD55233-27BF-4161-ACFC-25AA08FFB737</key>
+		<key>033C5FBF-EAB6-4703-BC66-EB779F89AB94</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>5AD55233-27BF-4161-ACFC-25AA08FFB737.xcactivitylog</string>
+			<string>033C5FBF-EAB6-4703-BC66-EB779F89AB94.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>table_view_auto_layout_test-dumrjfoaazkdpwdhqzblmwkphlxk</string>
 			<key>timeStartedRecording</key>
-			<real>634352745.38902903</real>
+			<real>634354046.46017599</real>
 			<key>timeStoppedRecording</key>
-			<real>634352752.94679499</real>
+			<real>634354050.07936597</real>
 			<key>title</key>
 			<string>Build target table view auto layout test</string>
 			<key>uniqueIdentifier</key>
-			<string>5AD55233-27BF-4161-ACFC-25AA08FFB737</string>
+			<string>033C5FBF-EAB6-4703-BC66-EB779F89AB94</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

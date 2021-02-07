@@ -9,12 +9,15 @@ provides-dynamic-lookup:
 - "tableView"
 - "viewDidLoad"
 depends-top-level:
+- !private "=="
 - "AssignmentPrecedence"
+- "CastingPrecedence"
 - !private "FloatLiteralType"
 - "IndexPath"
 - "Int"
 - !private "IntegerLiteralType"
 - !private "StringLiteralType"
+- "TestTableViewCell"
 - "UITableView"
 - "UITableViewCell"
 - "UITableViewDataSource"
@@ -25,11 +28,14 @@ depends-top-level:
 depends-member:
 - !private ["s18AdditiveArithmeticP", ""]
 - ["SK", ""]
+- !private ["SK", "row"]
 - !private ["So15CALayerDelegateP", ""]
 - !private ["So15CALayerDelegateP", "dataSource"]
 - !private ["So15CALayerDelegateP", "delegate"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCell"]
 - !private ["So15CALayerDelegateP", "dequeueReusableCellWithIdentifier"]
+- !private ["So15CALayerDelegateP", "testLabel"]
+- !private ["So15CALayerDelegateP", "text"]
 - ["s7CVarArgP", ""]
 - !private ["s7CVarArgP", "dataSource"]
 - !private ["s7CVarArgP", "delegate"]
@@ -55,11 +61,15 @@ depends-member:
 - ["s7CVarArgP", "sectionIndexTitlesForTableView"]
 - ["s7CVarArgP", "tableView"]
 - ["s7CVarArgP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["s7CVarArgP", "testLabel"]
+- !private ["s7CVarArgP", "text"]
 - !private ["s7CVarArgP", "viewDidLoad"]
 - ["s7CVarArgP", "viewForZooming"]
 - ["s7CVarArgP", "viewForZoomingInScrollView"]
 - ["Sl", ""]
+- !private ["Sl", "row"]
 - ["SL", ""]
+- !private ["SL", "row"]
 - ["s28CustomDebugStringConvertibleP", ""]
 - !private ["s28CustomDebugStringConvertibleP", "dataSource"]
 - !private ["s28CustomDebugStringConvertibleP", "delegate"]
@@ -68,6 +78,7 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "indexPathForPreferredFocusedViewInTableView"]
 - ["s28CustomDebugStringConvertibleP", "numberOfSections"]
 - ["s28CustomDebugStringConvertibleP", "numberOfSectionsInTableView"]
+- !private ["s28CustomDebugStringConvertibleP", "row"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidEndDecelerating"]
 - ["s28CustomDebugStringConvertibleP", "scrollViewDidEndDragging"]
@@ -85,12 +96,18 @@ depends-member:
 - ["s28CustomDebugStringConvertibleP", "sectionIndexTitlesForTableView"]
 - ["s28CustomDebugStringConvertibleP", "tableView"]
 - ["s28CustomDebugStringConvertibleP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["s28CustomDebugStringConvertibleP", "testLabel"]
+- !private ["s28CustomDebugStringConvertibleP", "text"]
 - !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
 - ["s28CustomDebugStringConvertibleP", "viewForZooming"]
 - ["s28CustomDebugStringConvertibleP", "viewForZoomingInScrollView"]
 - !private ["s17CustomReflectableP", "dataSource"]
 - !private ["s17CustomReflectableP", "delegate"]
+- !private ["s17CustomReflectableP", "row"]
+- !private ["s17CustomReflectableP", "text"]
 - ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "appendInterpolation"]
+- !private ["s23CustomStringConvertibleP", "appendLiteral"]
 - !private ["s23CustomStringConvertibleP", "dataSource"]
 - !private ["s23CustomStringConvertibleP", "delegate"]
 - !private ["s23CustomStringConvertibleP", "dequeueReusableCell"]
@@ -98,6 +115,7 @@ depends-member:
 - ["s23CustomStringConvertibleP", "indexPathForPreferredFocusedViewInTableView"]
 - ["s23CustomStringConvertibleP", "numberOfSections"]
 - ["s23CustomStringConvertibleP", "numberOfSectionsInTableView"]
+- !private ["s23CustomStringConvertibleP", "row"]
 - ["s23CustomStringConvertibleP", "scrollViewDidChangeAdjustedContentInset"]
 - ["s23CustomStringConvertibleP", "scrollViewDidEndDecelerating"]
 - ["s23CustomStringConvertibleP", "scrollViewDidEndDragging"]
@@ -115,13 +133,21 @@ depends-member:
 - ["s23CustomStringConvertibleP", "sectionIndexTitlesForTableView"]
 - ["s23CustomStringConvertibleP", "tableView"]
 - ["s23CustomStringConvertibleP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["s23CustomStringConvertibleP", "testLabel"]
+- !private ["s23CustomStringConvertibleP", "text"]
 - !private ["s23CustomStringConvertibleP", "viewDidLoad"]
 - ["s23CustomStringConvertibleP", "viewForZooming"]
 - ["s23CustomStringConvertibleP", "viewForZoomingInScrollView"]
 - !private ["Se", "dataSource"]
 - !private ["Se", "delegate"]
+- !private ["Se", "row"]
+- !private ["Se", "text"]
+- !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
+- !private ["s26DefaultStringInterpolationV", "appendLiteral"]
 - !private ["SE", "dataSource"]
 - !private ["SE", "delegate"]
+- !private ["SE", "row"]
+- !private ["SE", "text"]
 - ["SQ", ""]
 - !private ["SQ", "dataSource"]
 - !private ["SQ", "delegate"]
@@ -130,6 +156,7 @@ depends-member:
 - ["SQ", "indexPathForPreferredFocusedViewInTableView"]
 - ["SQ", "numberOfSections"]
 - ["SQ", "numberOfSectionsInTableView"]
+- !private ["SQ", "row"]
 - ["SQ", "scrollViewDidChangeAdjustedContentInset"]
 - ["SQ", "scrollViewDidEndDecelerating"]
 - ["SQ", "scrollViewDidEndDragging"]
@@ -147,15 +174,21 @@ depends-member:
 - ["SQ", "sectionIndexTitlesForTableView"]
 - ["SQ", "tableView"]
 - ["SQ", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["SQ", "testLabel"]
+- !private ["SQ", "text"]
 - !private ["SQ", "viewDidLoad"]
 - ["SQ", "viewForZooming"]
 - ["SQ", "viewForZoomingInScrollView"]
+- !private ["s25ExpressibleByArrayLiteralP", "row"]
 - ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "dataSource"]
 - !private ["s23ExpressibleByNilLiteralP", "delegate"]
+- !private ["s23ExpressibleByNilLiteralP", "text"]
+- !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - ["s32ExpressibleByStringInterpolationP", ""]
+- !private ["s32ExpressibleByStringInterpolationP", "init"]
 - ["s26ExpressibleByStringLiteralP", ""]
 - ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
@@ -167,6 +200,7 @@ depends-member:
 - ["SH", "indexPathForPreferredFocusedViewInTableView"]
 - ["SH", "numberOfSections"]
 - ["SH", "numberOfSectionsInTableView"]
+- !private ["SH", "row"]
 - ["SH", "scrollViewDidChangeAdjustedContentInset"]
 - ["SH", "scrollViewDidEndDecelerating"]
 - ["SH", "scrollViewDidEndDragging"]
@@ -184,12 +218,17 @@ depends-member:
 - ["SH", "sectionIndexTitlesForTableView"]
 - ["SH", "tableView"]
 - ["SH", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["SH", "testLabel"]
+- !private ["SH", "text"]
 - !private ["SH", "viewDidLoad"]
 - ["SH", "viewForZooming"]
 - ["SH", "viewForZoomingInScrollView"]
+- !private ["10Foundation9IndexPathV", "row"]
 - ["s25LosslessStringConvertibleP", ""]
+- !private ["SM", "row"]
 - ["So8NSCodingP", "IndexPath"]
 - ["So8NSCodingP", "Int"]
+- !private ["So8NSCodingP", "TestTableViewCell"]
 - ["So8NSCodingP", "UITableView"]
 - ["So8NSCodingP", "UITableViewCell"]
 - ["So8NSCodingP", ""]
@@ -220,11 +259,14 @@ depends-member:
 - ["So8NSCodingP", "sectionIndexTitlesForTableView"]
 - ["So8NSCodingP", "tableView"]
 - ["So8NSCodingP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["So8NSCodingP", "testLabel"]
+- !private ["So8NSCodingP", "text"]
 - ["So8NSCodingP", "viewDidLoad"]
 - ["So8NSCodingP", "viewForZooming"]
 - ["So8NSCodingP", "viewForZoomingInScrollView"]
 - ["So26NSExtensionRequestHandlingP", "IndexPath"]
 - ["So26NSExtensionRequestHandlingP", "Int"]
+- !private ["So26NSExtensionRequestHandlingP", "TestTableViewCell"]
 - ["So26NSExtensionRequestHandlingP", "UITableView"]
 - ["So26NSExtensionRequestHandlingP", "UITableViewCell"]
 - ["So26NSExtensionRequestHandlingP", ""]
@@ -256,6 +298,7 @@ depends-member:
 - ["So26NSExtensionRequestHandlingP", "viewForZoomingInScrollView"]
 - ["So8NSObjectC", "IndexPath"]
 - ["So8NSObjectC", "Int"]
+- !private ["So8NSObjectC", "TestTableViewCell"]
 - ["So8NSObjectC", "UITableView"]
 - ["So8NSObjectC", "UITableViewCell"]
 - ["So8NSObjectC", ""]
@@ -285,11 +328,14 @@ depends-member:
 - ["So8NSObjectC", "sectionIndexTitlesForTableView"]
 - ["So8NSObjectC", "tableView"]
 - ["So8NSObjectC", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["So8NSObjectC", "testLabel"]
+- !private ["So8NSObjectC", "text"]
 - ["So8NSObjectC", "viewDidLoad"]
 - ["So8NSObjectC", "viewForZooming"]
 - ["So8NSObjectC", "viewForZoomingInScrollView"]
 - ["So8NSObjectP", "IndexPath"]
 - ["So8NSObjectP", "Int"]
+- !private ["So8NSObjectP", "TestTableViewCell"]
 - ["So8NSObjectP", "UITableView"]
 - ["So8NSObjectP", "UITableViewCell"]
 - ["So8NSObjectP", ""]
@@ -320,29 +366,46 @@ depends-member:
 - ["So8NSObjectP", "sectionIndexTitlesForTableView"]
 - ["So8NSObjectP", "tableView"]
 - ["So8NSObjectP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["So8NSObjectP", "testLabel"]
+- !private ["So8NSObjectP", "text"]
 - ["So8NSObjectP", "viewDidLoad"]
 - ["So8NSObjectP", "viewForZooming"]
 - ["So8NSObjectP", "viewForZoomingInScrollView"]
 - !private ["Sj", ""]
 - !private ["Sq", "dataSource"]
 - !private ["Sq", "delegate"]
+- !private ["Sq", "text"]
+- !private ["Sk", "row"]
+- !private ["10Foundation20ReferenceConvertibleP", "row"]
 - ["ST", ""]
+- !private ["ST", "row"]
 - !private ["s13SignedNumericP", ""]
 - !private ["Sx", ""]
+- !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
+- !private ["s27StringInterpolationProtocolP", "appendLiteral"]
+- !private ["s27StringInterpolationProtocolP", "init"]
+- !private ["27table_view_auto_layout_test17TestTableViewCellC", "testLabel"]
 - ["s16TextOutputStreamP", ""]
+- !private ["s16TextOutputStreamP", "appendInterpolation"]
+- !private ["s16TextOutputStreamP", "appendLiteral"]
 - ["s20TextOutputStreamableP", ""]
 - !private ["So29UIAccessibilityIdentificationP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "dataSource"]
 - !private ["So29UIAccessibilityIdentificationP", "delegate"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCellWithIdentifier"]
+- !private ["So29UIAccessibilityIdentificationP", "testLabel"]
+- !private ["So29UIAccessibilityIdentificationP", "text"]
 - !private ["So12UIAppearanceP", ""]
 - !private ["So12UIAppearanceP", "dataSource"]
 - !private ["So12UIAppearanceP", "delegate"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
 - !private ["So12UIAppearanceP", "dequeueReusableCellWithIdentifier"]
+- !private ["So12UIAppearanceP", "testLabel"]
+- !private ["So12UIAppearanceP", "text"]
 - ["So21UIAppearanceContainerP", "IndexPath"]
 - ["So21UIAppearanceContainerP", "Int"]
+- !private ["So21UIAppearanceContainerP", "TestTableViewCell"]
 - ["So21UIAppearanceContainerP", "UITableView"]
 - ["So21UIAppearanceContainerP", "UITableViewCell"]
 - ["So21UIAppearanceContainerP", ""]
@@ -373,11 +436,14 @@ depends-member:
 - ["So21UIAppearanceContainerP", "sectionIndexTitlesForTableView"]
 - ["So21UIAppearanceContainerP", "tableView"]
 - ["So21UIAppearanceContainerP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["So21UIAppearanceContainerP", "testLabel"]
+- !private ["So21UIAppearanceContainerP", "text"]
 - ["So21UIAppearanceContainerP", "viewDidLoad"]
 - ["So21UIAppearanceContainerP", "viewForZooming"]
 - ["So21UIAppearanceContainerP", "viewForZoomingInScrollView"]
 - ["So18UIContentContainerP", "IndexPath"]
 - ["So18UIContentContainerP", "Int"]
+- !private ["So18UIContentContainerP", "TestTableViewCell"]
 - ["So18UIContentContainerP", "UITableView"]
 - ["So18UIContentContainerP", "UITableViewCell"]
 - ["So18UIContentContainerP", ""]
@@ -407,12 +473,15 @@ depends-member:
 - ["So18UIContentContainerP", "viewDidLoad"]
 - ["So18UIContentContainerP", "viewForZooming"]
 - ["So18UIContentContainerP", "viewForZoomingInScrollView"]
+- !private ["So30UIContentSizeCategoryAdjustingP", "text"]
 - ["So33UIContextMenuInteractionAnimatingP", ""]
 - !private ["So17UICoordinateSpaceP", ""]
 - !private ["So17UICoordinateSpaceP", "dataSource"]
 - !private ["So17UICoordinateSpaceP", "delegate"]
 - !private ["So17UICoordinateSpaceP", "dequeueReusableCell"]
 - !private ["So17UICoordinateSpaceP", "dequeueReusableCellWithIdentifier"]
+- !private ["So17UICoordinateSpaceP", "testLabel"]
+- !private ["So17UICoordinateSpaceP", "text"]
 - !private ["So23UIDataSourceTranslatingP", "dataSource"]
 - !private ["So23UIDataSourceTranslatingP", "delegate"]
 - !private ["So23UIDataSourceTranslatingP", "dequeueReusableCell"]
@@ -421,8 +490,11 @@ depends-member:
 - !private ["So13UIDynamicItemP", "delegate"]
 - !private ["So13UIDynamicItemP", "dequeueReusableCell"]
 - !private ["So13UIDynamicItemP", "dequeueReusableCellWithIdentifier"]
+- !private ["So13UIDynamicItemP", "testLabel"]
+- !private ["So13UIDynamicItemP", "text"]
 - ["So18UIFocusEnvironmentP", "IndexPath"]
 - ["So18UIFocusEnvironmentP", "Int"]
+- !private ["So18UIFocusEnvironmentP", "TestTableViewCell"]
 - ["So18UIFocusEnvironmentP", "UITableView"]
 - ["So18UIFocusEnvironmentP", "UITableViewCell"]
 - ["So18UIFocusEnvironmentP", ""]
@@ -453,6 +525,8 @@ depends-member:
 - ["So18UIFocusEnvironmentP", "sectionIndexTitlesForTableView"]
 - ["So18UIFocusEnvironmentP", "tableView"]
 - ["So18UIFocusEnvironmentP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["So18UIFocusEnvironmentP", "testLabel"]
+- !private ["So18UIFocusEnvironmentP", "text"]
 - ["So18UIFocusEnvironmentP", "viewDidLoad"]
 - ["So18UIFocusEnvironmentP", "viewForZooming"]
 - ["So18UIFocusEnvironmentP", "viewForZoomingInScrollView"]
@@ -461,23 +535,32 @@ depends-member:
 - !private ["So11UIFocusItemP", "delegate"]
 - !private ["So11UIFocusItemP", "dequeueReusableCell"]
 - !private ["So11UIFocusItemP", "dequeueReusableCellWithIdentifier"]
+- !private ["So11UIFocusItemP", "testLabel"]
+- !private ["So11UIFocusItemP", "text"]
 - ["So20UIFocusItemContainerP", ""]
 - !private ["So20UIFocusItemContainerP", "dataSource"]
 - !private ["So20UIFocusItemContainerP", "delegate"]
 - !private ["So20UIFocusItemContainerP", "dequeueReusableCell"]
 - !private ["So20UIFocusItemContainerP", "dequeueReusableCellWithIdentifier"]
+- !private ["So20UIFocusItemContainerP", "testLabel"]
+- !private ["So20UIFocusItemContainerP", "text"]
 - !private ["So30UIFocusItemScrollableContainerP", ""]
 - !private ["So30UIFocusItemScrollableContainerP", "dataSource"]
 - !private ["So30UIFocusItemScrollableContainerP", "delegate"]
 - !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCell"]
 - !private ["So30UIFocusItemScrollableContainerP", "dequeueReusableCellWithIdentifier"]
+- !private ["So27UIGestureRecognizerDelegateP", "testLabel"]
+- !private ["So7UILabelC", "text"]
 - !private ["So24UILargeContentViewerItemP", ""]
 - !private ["So24UILargeContentViewerItemP", "dataSource"]
 - !private ["So24UILargeContentViewerItemP", "delegate"]
 - !private ["So24UILargeContentViewerItemP", "dequeueReusableCell"]
 - !private ["So24UILargeContentViewerItemP", "dequeueReusableCellWithIdentifier"]
+- !private ["So24UILargeContentViewerItemP", "testLabel"]
+- !private ["So24UILargeContentViewerItemP", "text"]
 - ["So30UIPasteConfigurationSupportingP", "IndexPath"]
 - ["So30UIPasteConfigurationSupportingP", "Int"]
+- !private ["So30UIPasteConfigurationSupportingP", "TestTableViewCell"]
 - ["So30UIPasteConfigurationSupportingP", "UITableView"]
 - ["So30UIPasteConfigurationSupportingP", "UITableViewCell"]
 - ["So30UIPasteConfigurationSupportingP", ""]
@@ -508,11 +591,14 @@ depends-member:
 - ["So30UIPasteConfigurationSupportingP", "sectionIndexTitlesForTableView"]
 - ["So30UIPasteConfigurationSupportingP", "tableView"]
 - ["So30UIPasteConfigurationSupportingP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["So30UIPasteConfigurationSupportingP", "testLabel"]
+- !private ["So30UIPasteConfigurationSupportingP", "text"]
 - ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZooming"]
 - ["So30UIPasteConfigurationSupportingP", "viewForZoomingInScrollView"]
 - ["So11UIResponderC", "IndexPath"]
 - ["So11UIResponderC", "Int"]
+- !private ["So11UIResponderC", "TestTableViewCell"]
 - ["So11UIResponderC", "UITableView"]
 - ["So11UIResponderC", "UITableViewCell"]
 - ["So11UIResponderC", ""]
@@ -542,11 +628,14 @@ depends-member:
 - ["So11UIResponderC", "sectionIndexTitlesForTableView"]
 - ["So11UIResponderC", "tableView"]
 - ["So11UIResponderC", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["So11UIResponderC", "testLabel"]
+- !private ["So11UIResponderC", "text"]
 - ["So11UIResponderC", "viewDidLoad"]
 - ["So11UIResponderC", "viewForZooming"]
 - ["So11UIResponderC", "viewForZoomingInScrollView"]
 - ["So30UIResponderStandardEditActionsP", "IndexPath"]
 - ["So30UIResponderStandardEditActionsP", "Int"]
+- !private ["So30UIResponderStandardEditActionsP", "TestTableViewCell"]
 - ["So30UIResponderStandardEditActionsP", "UITableView"]
 - ["So30UIResponderStandardEditActionsP", "UITableViewCell"]
 - ["So30UIResponderStandardEditActionsP", ""]
@@ -577,6 +666,8 @@ depends-member:
 - ["So30UIResponderStandardEditActionsP", "sectionIndexTitlesForTableView"]
 - ["So30UIResponderStandardEditActionsP", "tableView"]
 - ["So30UIResponderStandardEditActionsP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["So30UIResponderStandardEditActionsP", "testLabel"]
+- !private ["So30UIResponderStandardEditActionsP", "text"]
 - ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
 - ["So30UIResponderStandardEditActionsP", "viewForZooming"]
 - ["So30UIResponderStandardEditActionsP", "viewForZoomingInScrollView"]
@@ -617,6 +708,7 @@ depends-member:
 - !private ["So35UISpringLoadedInteractionSupportingP", "dequeueReusableCell"]
 - ["So16UIStateRestoringP", "IndexPath"]
 - ["So16UIStateRestoringP", "Int"]
+- !private ["So16UIStateRestoringP", "TestTableViewCell"]
 - ["So16UIStateRestoringP", "UITableView"]
 - ["So16UIStateRestoringP", "UITableViewCell"]
 - ["So16UIStateRestoringP", ""]
@@ -649,6 +741,8 @@ depends-member:
 - !private ["So11UITableViewC", "dataSource"]
 - !private ["So11UITableViewC", "delegate"]
 - !private ["So11UITableViewC", "dequeueReusableCell"]
+- ["So15UITableViewCellC", ""]
+- !private ["So15UITableViewCellC", "testLabel"]
 - ["So21UITableViewDataSourceP", ""]
 - ["So21UITableViewDataSourceP", "deinit"]
 - ["So21UITableViewDataSourceP", "indexPathForPreferredFocusedView"]
@@ -705,6 +799,7 @@ depends-member:
 - ["So19UITableViewDelegateP", "viewForZoomingInScrollView"]
 - ["So18UITraitEnvironmentP", "IndexPath"]
 - ["So18UITraitEnvironmentP", "Int"]
+- !private ["So18UITraitEnvironmentP", "TestTableViewCell"]
 - ["So18UITraitEnvironmentP", "UITableView"]
 - ["So18UITraitEnvironmentP", "UITableViewCell"]
 - ["So18UITraitEnvironmentP", ""]
@@ -735,11 +830,14 @@ depends-member:
 - ["So18UITraitEnvironmentP", "sectionIndexTitlesForTableView"]
 - ["So18UITraitEnvironmentP", "tableView"]
 - ["So18UITraitEnvironmentP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["So18UITraitEnvironmentP", "testLabel"]
+- !private ["So18UITraitEnvironmentP", "text"]
 - ["So18UITraitEnvironmentP", "viewDidLoad"]
 - ["So18UITraitEnvironmentP", "viewForZooming"]
 - ["So18UITraitEnvironmentP", "viewForZoomingInScrollView"]
 - ["So23UIUserActivityRestoringP", "IndexPath"]
 - ["So23UIUserActivityRestoringP", "Int"]
+- !private ["So23UIUserActivityRestoringP", "TestTableViewCell"]
 - ["So23UIUserActivityRestoringP", "UITableView"]
 - ["So23UIUserActivityRestoringP", "UITableViewCell"]
 - ["So23UIUserActivityRestoringP", ""]
@@ -770,6 +868,8 @@ depends-member:
 - ["So23UIUserActivityRestoringP", "sectionIndexTitlesForTableView"]
 - ["So23UIUserActivityRestoringP", "tableView"]
 - ["So23UIUserActivityRestoringP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["So23UIUserActivityRestoringP", "testLabel"]
+- !private ["So23UIUserActivityRestoringP", "text"]
 - ["So23UIUserActivityRestoringP", "viewDidLoad"]
 - ["So23UIUserActivityRestoringP", "viewForZooming"]
 - ["So23UIUserActivityRestoringP", "viewForZoomingInScrollView"]
@@ -778,8 +878,11 @@ depends-member:
 - !private ["So6UIViewC", "delegate"]
 - !private ["So6UIViewC", "dequeueReusableCell"]
 - !private ["So6UIViewC", "dequeueReusableCellWithIdentifier"]
+- !private ["So6UIViewC", "testLabel"]
+- !private ["So6UIViewC", "text"]
 - ["So16UIViewControllerC", "IndexPath"]
 - ["So16UIViewControllerC", "Int"]
+- !private ["So16UIViewControllerC", "TestTableViewCell"]
 - ["So16UIViewControllerC", "UITableView"]
 - ["So16UIViewControllerC", "UITableViewCell"]
 - ["So16UIViewControllerC", ""]
@@ -810,6 +913,7 @@ depends-member:
 - ["So16UIViewControllerC", "viewForZoomingInScrollView"]
 - ["27table_view_auto_layout_test14ViewControllerC", "IndexPath"]
 - ["27table_view_auto_layout_test14ViewControllerC", "Int"]
+- !private ["27table_view_auto_layout_test14ViewControllerC", "TestTableViewCell"]
 - ["27table_view_auto_layout_test14ViewControllerC", "UITableView"]
 - ["27table_view_auto_layout_test14ViewControllerC", "UITableViewCell"]
 - ["27table_view_auto_layout_test14ViewControllerC", ""]
@@ -868,6 +972,8 @@ depends-member:
 - ["10Foundation27_KeyValueCodingAndObservingP", "sectionIndexTitlesForTableView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "tableView"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "testLabel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "text"]
 - !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZooming"]
 - ["10Foundation27_KeyValueCodingAndObservingP", "viewForZoomingInScrollView"]
@@ -896,14 +1002,21 @@ depends-member:
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "sectionIndexTitlesForTableView"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableView"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "tableViewDidEndMultipleSelectionInteraction"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "testLabel"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "text"]
 - !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewDidLoad"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZooming"]
 - ["10Foundation37_KeyValueCodingAndObservingPublishingP", "viewForZoomingInScrollView"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
 - !private ["s21_ObjectiveCBridgeableP", "dataSource"]
 - !private ["s21_ObjectiveCBridgeableP", "delegate"]
+- !private ["s21_ObjectiveCBridgeableP", "row"]
+- !private ["s21_ObjectiveCBridgeableP", "text"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dataSource"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "delegate"]
 - !private ["s38__DefaultCustomPlaygroundQuickLookableP", "dequeueReusableCell"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "testLabel"]
+- !private ["s38__DefaultCustomPlaygroundQuickLookableP", "text"]
 depends-nominal:
 - !private "s18AdditiveArithmeticP"
 - "SK"
@@ -915,8 +1028,10 @@ depends-nominal:
 - !private "s17CustomReflectableP"
 - "s23CustomStringConvertibleP"
 - !private "Se"
+- !private "s26DefaultStringInterpolationV"
 - !private "SE"
 - "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
 - "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
@@ -926,22 +1041,29 @@ depends-nominal:
 - "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SF"
 - "SH"
+- !private "10Foundation9IndexPathV"
 - "s25LosslessStringConvertibleP"
+- !private "SM"
 - "So8NSCodingP"
 - "So26NSExtensionRequestHandlingP"
 - "So8NSObjectC"
 - "So8NSObjectP"
 - !private "Sj"
 - !private "Sq"
+- !private "Sk"
+- !private "10Foundation20ReferenceConvertibleP"
 - "ST"
 - !private "s13SignedNumericP"
 - !private "Sx"
+- !private "s27StringInterpolationProtocolP"
+- !private "27table_view_auto_layout_test17TestTableViewCellC"
 - "s16TextOutputStreamP"
 - "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - "So21UIAppearanceContainerP"
 - "So18UIContentContainerP"
+- !private "So30UIContentSizeCategoryAdjustingP"
 - "So33UIContextMenuInteractionAnimatingP"
 - !private "So17UICoordinateSpaceP"
 - !private "So23UIDataSourceTranslatingP"
@@ -950,6 +1072,8 @@ depends-nominal:
 - !private "So11UIFocusItemP"
 - "So20UIFocusItemContainerP"
 - !private "So30UIFocusItemScrollableContainerP"
+- !private "So27UIGestureRecognizerDelegateP"
+- !private "So7UILabelC"
 - !private "So24UILargeContentViewerItemP"
 - "So30UIPasteConfigurationSupportingP"
 - "So11UIResponderC"
@@ -959,6 +1083,7 @@ depends-nominal:
 - !private "So35UISpringLoadedInteractionSupportingP"
 - "So16UIStateRestoringP"
 - !private "So11UITableViewC"
+- "So15UITableViewCellC"
 - "So21UITableViewDataSourceP"
 - "So19UITableViewDelegateP"
 - "So18UITraitEnvironmentP"

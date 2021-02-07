@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>275F30DF-26F3-4064-AE33-C0884A56D8CC</key>
+		<key>53E45847-E9DF-4902-8FCA-C6BDE2683BCA</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -15,143 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>275F30DF-26F3-4064-AE33-C0884A56D8CC.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>table view auto layout test project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>table view auto layout test</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build table view auto layout test</string>
-			<key>timeStartedRecording</key>
-			<real>634350960.75367296</real>
-			<key>timeStoppedRecording</key>
-			<real>634350960.804021</real>
-			<key>title</key>
-			<string>Build table view auto layout test</string>
-			<key>uniqueIdentifier</key>
-			<string>275F30DF-26F3-4064-AE33-C0884A56D8CC</string>
-		</dict>
-		<key>38108613-6F4A-479D-B82A-43E084536D3A</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>38108613-6F4A-479D-B82A-43E084536D3A.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>table view auto layout test project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>table view auto layout test</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build table view auto layout test</string>
-			<key>timeStartedRecording</key>
-			<real>634351386.98420799</real>
-			<key>timeStoppedRecording</key>
-			<real>634351394.22556698</real>
-			<key>title</key>
-			<string>Build table view auto layout test</string>
-			<key>uniqueIdentifier</key>
-			<string>38108613-6F4A-479D-B82A-43E084536D3A</string>
-		</dict>
-		<key>4DDAB9EB-8724-4126-869B-B1839AA2F974</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>4DDAB9EB-8724-4126-869B-B1839AA2F974.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>table view auto layout test project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>table view auto layout test</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build table view auto layout test</string>
-			<key>timeStartedRecording</key>
-			<real>634350907.43596196</real>
-			<key>timeStoppedRecording</key>
-			<real>634350915.044361</real>
-			<key>title</key>
-			<string>Build table view auto layout test</string>
-			<key>uniqueIdentifier</key>
-			<string>4DDAB9EB-8724-4126-869B-B1839AA2F974</string>
-		</dict>
-		<key>A8797DF7-1A7C-443C-A95A-F32485443192</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>A8797DF7-1A7C-443C-A95A-F32485443192.xcactivitylog</string>
-			<key>hasPrimaryLog</key>
-			<true/>
-			<key>primaryObservable</key>
-			<dict>
-				<key>highLevelStatus</key>
-				<string>W</string>
-			</dict>
-			<key>schemeIdentifier-containerName</key>
-			<string>table view auto layout test project</string>
-			<key>schemeIdentifier-schemeName</key>
-			<string>table view auto layout test</string>
-			<key>schemeIdentifier-sharedScheme</key>
-			<integer>1</integer>
-			<key>signature</key>
-			<string>Build table view auto layout test</string>
-			<key>timeStartedRecording</key>
-			<real>634350946.83564794</real>
-			<key>timeStoppedRecording</key>
-			<real>634350946.89800096</real>
-			<key>title</key>
-			<string>Build table view auto layout test</string>
-			<key>uniqueIdentifier</key>
-			<string>A8797DF7-1A7C-443C-A95A-F32485443192</string>
-		</dict>
-		<key>C02D59A8-D63C-465D-8544-40AB2A783D08</key>
-		<dict>
-			<key>className</key>
-			<string>IDEActivityLogSection</string>
-			<key>documentTypeString</key>
-			<string>&lt;nil&gt;</string>
-			<key>domainType</key>
-			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
-			<key>fileName</key>
-			<string>C02D59A8-D63C-465D-8544-40AB2A783D08.xcactivitylog</string>
+			<string>53E45847-E9DF-4902-8FCA-C6BDE2683BCA.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -168,15 +32,15 @@
 			<key>signature</key>
 			<string>Build table view auto layout test</string>
 			<key>timeStartedRecording</key>
-			<real>634352745.32117796</real>
+			<real>634353942.40065205</real>
 			<key>timeStoppedRecording</key>
-			<real>634352752.96257699</real>
+			<real>634354027.37699795</real>
 			<key>title</key>
 			<string>Build table view auto layout test</string>
 			<key>uniqueIdentifier</key>
-			<string>C02D59A8-D63C-465D-8544-40AB2A783D08</string>
+			<string>53E45847-E9DF-4902-8FCA-C6BDE2683BCA</string>
 		</dict>
-		<key>E7D20399-3B84-4BBE-9964-B9D76C37B047</key>
+		<key>6D29B7D2-4789-4B06-81F4-C589340C1DA3</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogSection</string>
@@ -185,13 +49,13 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
 			<key>fileName</key>
-			<string>E7D20399-3B84-4BBE-9964-B9D76C37B047.xcactivitylog</string>
+			<string>6D29B7D2-4789-4B06-81F4-C589340C1DA3.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
 			<dict>
 				<key>highLevelStatus</key>
-				<string>W</string>
+				<string>S</string>
 			</dict>
 			<key>schemeIdentifier-containerName</key>
 			<string>table view auto layout test project</string>
@@ -202,13 +66,47 @@
 			<key>signature</key>
 			<string>Build table view auto layout test</string>
 			<key>timeStartedRecording</key>
-			<real>634351005.61518598</real>
+			<real>634353633.07464898</real>
 			<key>timeStoppedRecording</key>
-			<real>634351007.23060298</real>
+			<real>634353659.23259401</real>
 			<key>title</key>
 			<string>Build table view auto layout test</string>
 			<key>uniqueIdentifier</key>
-			<string>E7D20399-3B84-4BBE-9964-B9D76C37B047</string>
+			<string>6D29B7D2-4789-4B06-81F4-C589340C1DA3</string>
+		</dict>
+		<key>D0212294-E5EA-4B65-9F7D-BD8ECE3543C9</key>
+		<dict>
+			<key>className</key>
+			<string>IDEActivityLogSection</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>D0212294-E5EA-4B65-9F7D-BD8ECE3543C9.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>table view auto layout test project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>table view auto layout test</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Build table view auto layout test</string>
+			<key>timeStartedRecording</key>
+			<real>634354046.39467597</real>
+			<key>timeStoppedRecording</key>
+			<real>634354050.09596801</real>
+			<key>title</key>
+			<string>Build table view auto layout test</string>
+			<key>uniqueIdentifier</key>
+			<string>D0212294-E5EA-4B65-9F7D-BD8ECE3543C9</string>
 		</dict>
 	</dict>
 </dict>
